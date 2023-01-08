@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Rosie Bradshaw Portfolio</title>
+    <link rel="shortcut icon" href="#">
+    <script src="/dist/index.js" defer></script>
+</head>
+<body>
+
+<!-- HEADER -->
+
+    <header class="min-w-full h-screen align-middle relative overflow-hidden" id="header">
+        
+      <!-- NAV BAR -->
+      
+      <div class="bg-gray-100 flex fixed top-0 left-0 right-0 z-30 w-full animate__animated animate__fadeInDown animate__delay-2s">
+            
+            <a class="text-2xl font-bold px-10 py-6 hover:text-pink-700 transition duration-250" href="#header">&lt;rb&gt;</a>
+            
+           
+            <div class="block py-6 ml-auto overflow-hidden">
+                <a class="navlink" href="#about">about</a>
+                <a class="navlink" href="#work">work</a>
+                <a class="navlink" href="#contact">contact</a>
+            </div>
+            <div class="md:hidden" id="dropdown-div">
+              <button class="h-6 w-6 m-6 block" id="dropdown-button" onclick="myFunction()">
+                  <img src="/assets/images/three-horizontal-lines-outline-icon.svg" alt="menu-icon">
+              </button>
+              <div class="rounded-lg bg-gray-100 shadow-lg w-2/5 absolute right-0 hidden" id="dropdown-content">
+                <a href="#about" class=" font-semibold block py-3 px-6 my-2 hover:bg-pink-100 transition duration-150 hover:text-pink-700">about</a>
+                <a href="#work" class="font-semibold block py-3 px-6 my-2 hover:bg-pink-100 transition duration-150 hover:text-pink-700">work</a>
+                <a href="#contact" class="font-semibold block py-3 px-6 my-2 hover:bg-pink-100 transition duration-150 hover:text-pink-700">contact</a>
+              </div>
+              
+              
+            </div>
+            
+        </div>
+
+        <!-- HERO SECTION-->
+
+        <div class="flex w-screen h-screen translate-y-16 sm:translate-y-0 justify-center items-center animate__animated animate__fadeIn animate__delay-1s">
+            <a target="_blank" href="http://www.videezy.com/" class="absolute">B Roll by Videezy</a>
+           
+            <video autoplay loop muted class="bg-clip-text h-full w-full object-cover absolute overflow-hidden" src="/assets/videos/Color_Explosion_Abstract_Art_Painting_433.mp4"></video>
+           
+            
+            <h1 class="bg-clip-text text-[15vh] md:text-[20vw] font-extrabold text-white leading-none my-auto mx-auto -rotate-90 md:rotate-0">Rosie Bradshaw</h1>
+            
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="bg-gray-100 w-full pb-20" id="about" name="about">
+        <div class="container p-6 pt-36 sm:w-4/5 mx-auto flex flex-wrap items-center justify-center gap-16">
+
+            <div class="md:w-1/2">
+              <h3 class="text-2xl mt-5 text-gray-500 mb-1">FULL-STACK WEB DEVELOPER</h3>
+              
+              <p class="text-pink-700 font-semibold mb-10">BASED IN BARCELONA</p>
+
+              <h2 class="text-5xl font-semibold mb-8">Hi, my name is Rosie and I build <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-700 font-bold">experiences on the web</span>.</h2>
+                
+              <p class="lg:text-lg mt-3 text-gray-900">Developing is my passion. Ever since I built my first website, all I have wanted is to know anything and everything about web development, front and back.</p>
+
+              <p class="lg:text-lg mt-3 text-gray-900">Though I now know it's impossible to know everything -especially in this field- I'm still growing and learning every day. And I'm always on the lookout for any challenge that will keep me on this never ending journey of self-improvement.</p>
+
+              <p class="lg:text-lg mt-3 text-gray-900">When I'm not in front of a computer, you can find me walking around sunny Barcelona, trying to be more disciplined with running, and taking care of my ever increasing collection of indoor plants.</p>
+
+              <!-- GRADIENT BUTTON -->
+
+                <a href="/assets/CV Full-stack web developer (2).pdf"><button class="bg-gradient-to-r from-indigo-600 to-pink-700 text-white font-semibold text-lg rounded-3xl px-6 py-2  hover:scale-110 transition-all duration-200 mt-6 shadow-xl">See my CV</button></a>
+
+            </div>
+
+            <!-- ROSIE PHOTO -->
+
+            <div class="md:h-50 md:w-2/5">
+                <img src="/assets/images/Rosie Bradshaw_foto_square.png" alt="rosie-bradshaw-photo" class="rotate-90 cover my-auto rounded-lg">
+            </div>
+
+        </div>
+
+
+        
+    </section>
+
+    
+<!-- WEBSITE SECTION -->
+
+    <section class="container my-24 sm:px-6 mx-auto mb-32 md:text-center" id="work">
+      <div class="sm:w-5/6 sm:min-h-[600px] sm:border-2 border-pink-700 rounded-xl mx-auto p-3 sm:p-10">
+        <div class="max-w-fit mx-auto">
+          <h2 class="text-5xl mb-12 pb-4  text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-700 font-bold pt-10">Some websites I have built</h2>
+        </div>
+        
+        <p class="lg:text-lg mt-3 text-gray-900">Service providers want clean, easy to navigate websites, that will impress on the user and will streamline admin tasks and workflow. That's where I come in!</p>
+        
+        <p class="font-semibold mt-7 text-gray-900 lg:text-lg">Some technologies I have used:</p>
+        <div class="mt-5 mb-10 leading-10">
+          <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Webflow</span>
+          <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Stripe</span>
+          <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">miniCRM</span>
+          <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">SociableKit</span>
+        </div>
+      </div>  
+
+      <!-- WEBSITE CARDS -->
+      <div class="grid lg:grid-cols-3 gap-6 xl:gap-x-12 lg:-mt-44 sm:-mt-32">
+        <div class="mb-16 lg:mb-0">
+          <div class="relative block bg-white rounded-lg shadow-lg border border-gray-100 lg:hover:scale-105 transition-all duration-150 ease-in-out">
+            <div class="flex">
+              <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-t-lg shadow-sm">
+                <img src="/assets/images/certify-website.png" class="w-full min-h-80" />
+                <a href="https://www.certifyeducation.org/">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                    style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="p-6">
+              <h5 class="font-bold text-lg mb-3">Certify Education</h5>
+              <p class="text-gray-500 mb-4">
+                <small>Published 2020</small>
+              </p>
+              <p class="mb-4 pb-2">
+                The website for this language school in Barcelona is in 2 languages, integrates with the company's CRM system and allows online enrolments and payments.
+              </p>
+              <a href="https://www.certifyeducation.org/"><button class="bg-gradient-to-r from-indigo-600 to-pink-700 text-white font-semibold text-sm rounded-3xl px-6 py-2 hover:scale-110 transition-all duration-200 ease-in-out my-6 shadow-xl">See website</button></a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mb-16 lg:mb-0">
+          <div class="relative block bg-white rounded-lg shadow-lg  border border-gray-100 lg:hover:scale-105 transition-all duration-150 ease-in-out">
+            <div class="flex">
+              <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-t-lg shadow-sm ">
+                <img src="/assets/images/ielts-website.png" class="w-full" />
+                <a href="https://www.ieltscertify.org/">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                    style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="p-6">
+              <h5 class="font-bold text-lg mb-3">IELTS in Barcelona</h5>
+              <p class="text-gray-500 mb-4">
+                <small>Published 2021</small>
+              </p>
+              <p class="mb-4 pb-2">
+                The IELTS test is the most popular high-stakes English test for work, study or migration. This website is in 3 languages, and allows online enrolments and payments.
+              </p>
+              <a href="https://www.ieltscertify.org/"><button  class="bg-gradient-to-r from-indigo-600 to-pink-700 text-white font-semibold text-sm rounded-3xl px-6 py-2 hover:scale-110 transition-all duration-200 ease-in-out my-6 shadow-xl">See website</button></a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mb-0">
+          <div class="relative block bg-white rounded-lg shadow-lg  border border-gray-100 lg:hover:scale-105 transition-all duration-150 ease-in-out">
+            <div class="flex">
+              <div
+                class="relative overflow-hidden bg-no-repeat bg-cover rounded-t-lg shadow-sm">
+                <img src="/assets/images/tesspokes-website.png" class="w-full min-h-80" />
+                <a href="https://www.tesspokes.com/">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                    style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="p-6">
+              <h5 class="font-bold text-lg mb-3">Tess pokes</h5>
+              <p class="text-gray-500 mb-4">
+                <small>Published 2022</small>
+              </p>
+              <p class="mb-4 pb-2">
+                The website for this tattoo artist based in London has helped her cut down on her admin time, as it allows her clients to contact her and book through a booking form.
+              </p>
+              <a href="https://www.tesspokes.com/"><button class="bg-gradient-to-r from-indigo-600 to-pink-700 text-white font-semibold text-sm rounded-3xl px-6 py-2 hover:scale-110 transition-all duration-200 ease-in-out my-6 shadow-xl">See website</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+
+    <!-- COLLABORATIONS SECTION-->
+    <section class="w-full">
+        <div class="container md:p-6 w-4/5 lg:w-5/6 lg:flex lg:flex-row-reverse lg:flex-wrap mx-auto relative align-middle">
+            <div class="lg:w-3/4 lg:border-2 border-pink-700 rounded-xl md:ml-auto lg:p-10 lg:min-h-[550px] flex">
+                <div class="lg:w-5/6 lg:pl-20 ml-auto my-auto">
+                  <div class="max-w-fit"><h2 class="text-5xl mb-12 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-700 font-bold pt-10">Projects I have collaborated on</h2></div>
+                  <p class="lg:text-lg mt-3 text-gray-900">Web development is changing at an extremely rapid rate - and we developers have to make sure we evolve with it!</p>
+                  <p class="lg:text-lg mt-3 text-gray-900">These are some of the projects I have collaborated on with other developers, to share knowledge and continue to learn and grow every day!</p>
+                  <p class="lg:text-lg font-semibold mt-7 text-gray-900">Some of my skills:</p>
+                  <div class="my-5 leading-10">
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">HTML</span>
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">CSS</span>
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Javascript</span>
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Typescript</span>
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Tailwind</span>
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Figma</span>
+                    <span class="bg-pink-100 rounded-md px-3 py-1 mr-1">Agile methodologies</span>
+                  </div>
+                </div>
+            </div>
+
+            <!-- COLLABORATION PROJECT CARDS -->
+
+            <div class="lg:w-2/5 mr-auto lg:absolute lg:left-0 md:top-20">
+              <div class="shadow-xl rounded-xl px-7 py-5 flex flex-wrap bg-white mb-5 lg:min-w-[420px] hover:scale-105 transition duration-150">
+                <div>
+                  <p class="text-pink-700">FICTIONAL TRAVEL AGENCY</p>
+                  <h4 class="font-semibold text-2xl">Alien Travels</h4>
+                </div>
+                <div class="flex ml-auto">
+                  <a href="https://alien-travels.web.app/" class="mr-5 hover:scale-110 transition duration-150"><img src="/assets/images/Internet.png" alt="alien-travels-page" ></a>
+                  <a href="https://github.com/Rosie-Bradshaw/alientravels" class="hover:scale-110 transition duration-150"><img src="/assets/images/GitHub.png" alt="alien-travels-github"></a>
+                </div>
+              </div>
+              <div class="shadow-xl rounded-xl px-7 py-5 flex flex-wrap bg-white mb-5 lg:min-w-[420px] hover:scale-105 transition duration-150">
+                <div>
+                  <p class="text-pink-700">FICTIONAL BOARD GAME MARKET PLACE</p>
+                  <h4 class="font-semibold text-2xl">Jumanji</h4>
+                </div>
+                <div class="flex ml-auto">
+                  <a href="https://rosie-bradshaw.github.io/jumanji/" class="mr-5 hover:scale-110 transition duration-150 "><img src="/assets/images/Internet.png" alt="jumanji-page"></a>
+                  <a href="https://github.com/Rosie-Bradshaw/jumanji" class="hover:scale-110 transition duration-150"><img src="/assets/images/GitHub.png" alt="jumanji-github"></a>
+                </div>
+              </div>
+              <div class="shadow-xl rounded-xl px-7 py-5 flex flex-wrap bg-white mb-5 lg:min-w-[420px] hover:scale-105 transition duration-150">
+                <div>
+                  <p class="text-pink-700">HALLOWEEN WHEEL OF DOOM GAME</p>
+                  <h4 class="font-semibold text-2xl">Frankenwheel of doom</h4>
+                </div>
+                <div class="flex ml-auto">
+                  <a href="https://frankenwheel-of-doom.github.io/doom-project/" class="mr-5 hover:scale-110 transition duration-150"><img src="/assets/images/Internet.png" alt="frankenwheel-of-doom-page"></a>
+                  <a href="https://github.com/frankenwheel-of-doom/doom-project" class="hover:scale-110 transition duration-150"><img src="/assets/images/GitHub.png" alt="frankenwheel-of-doom-github"></a>
+                </div>
+              </div>
+              <div class="shadow-xl rounded-xl px-7 py-5 flex flex-wrap bg-white mb-5 lg:min-w-[420px] hover:scale-105 transition duration-150">
+                <div>
+                  <p class="text-pink-700">BACK-END API</p>
+                  <h4 class="font-semibold text-2xl">Restful API</h4>
+                </div>
+                <div class="flex ml-auto">
+                  <a href="https://github.com/api-rest/portfolio" class="hover:scale-110 transition duration-150"><img src="/assets/images/GitHub.png" alt="api-rest-github"></a>
+                </div>
+              </div>
+              
+                
+            </div>
+
+        </div>
+
+
+        
+    </section>
+    
+
+    <!-- CONTACT FORM -->
+
+    <section class="py-20 bg-gray-100 mt-20" id="contact">
+      <div class="container md:p-6 w-4/5 lg:w-5/6 lg:flex lg:flex-wrap mx-auto gap-">
+        <div class="lg:max-w-2xl my-auto">
+          <div class="max-w-fit"><h2 class="text-5xl mb-12 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-700 font-bold">Say hi!</h2></div>
+          <p class="text-2xl mt-3 text-gray-700">I'm always looking forward to hearing about new and exciting projects. If you have something in mind, let's have a chat!</p>
+        </div>
+      
+      <div class="p-6 rounded-xl shadow-lg bg-white lg:w-2/4 md:max-w-md mx-auto mt-10 xl:mt-0">
+        <form onsubmit="sendEmail(); reset(); return false;">
+          <div class="form-group mb-6">
+            <input type="text" id="name" name="name" required class="form-control block w-full px-3 py-1.5 text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-700 focus:outline-none" id="form-name" placeholder="Name">
+          </div>
+          <div class="form-group mb-6">
+            <input type="email" id="email" name="email" required class="form-control block w-full px-3 py-1.5 text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-700 focus:outline-none" id="form-email" placeholder="Email address">
+          </div>
+          <div class="form-group mb-6">
+            <textarea id="message" name="message" required class="form-control block w-full px-3 py-1.5 text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300
+            rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-700 focus:outline-none"
+            id="form-message" rows="3" placeholder="Message"
+          ></textarea>
+          </div>
+          <button type="submit" value="submit" class="
+            bg-gradient-to-r from-indigo-600 to-pink-700 text-white font-medium text-lg rounded-3xl px-10 py-2 hover:scale-110 transition-all ease-in-out mt-6 shadow-xl duration-300">Send</button>
+       </form>
+      </div> 
+      </div>
+
+    </section>
+
+
+<!-- FOOTER -->
+    <footer class="relative bg-indigo-900 pt-8 pb-6">
+        <div class="container mx-auto px-4 py-4">
+          <div class="flex flex-wrap md:text-left items-center justify-center text-center ">
+            <div class="w-full md:w-6/12 px-4 my-auto py-4">
+              <h4 class="text-3xl font-semibold text-white">Rosie Bradshaw</h4>
+              <h5 class="text-lg mt-0 mb-2 text-white">
+                Full-stack web developer
+              </h5>
+              
+            </div>
+            <div class="md:w-6/12 px-4 py-4">
+              <div class="flex my-auto ">
+                <div class="lg:w-2/4 px-4 ml-auto">
+                  <div class="my-auto lg:mb-0 flex justify-end">
+                   <a href="https://github.com/Rosie-Bradshaw" class="mr-6"><img src="/assets/images/GitHub white.png" alt="rosie-bradshaw-github-link" class="hover:scale-110 transition duration-150"></a>
+                   <a href="https://www.linkedin.com/in/rosie-bradshaw/"><img src="/assets/images/LinkedIn Circled.png" alt="rosie-bradshaw-linkedin-link" class="hover:scale-110 transition duration-150"></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-wrap items-center md:justify-between justify-center mt-6">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+              <div class="text-sm text-white font-semibold py-1 ">
+                © Rosie Bradshaw 2023
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    
+</body>
+</html>
